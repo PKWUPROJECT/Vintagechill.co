@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2{
+    text-align:center;
+  }
+  #form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label,
+  input,
+  button {
+    border-radius:5px;
+    border:1px solid gray;
+    padding:5px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .container{
+    display:flex;
+  }
+
+  #addItemBtn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    #downloadExcelBtn {
+    padding: 8px 12px;
+    background-color:green;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+   #saveDataBtn {
+    padding: 8px 12px;
+    background-color:black;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #transaction-list {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #transaction-list button{
+    background-color:red;
+    color:white;
+  }
+
+  .transaction-item {
+    margin-bottom: 10px;
+  }
